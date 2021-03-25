@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#vmUsage=$(vmstat -a | sed 1d | awk '{OFS="\t"} {print $3, $4, $5, $6}')
 echo "Up time:" && uptime | awk -F"," '{print $1}'
 
 echo "###################"
