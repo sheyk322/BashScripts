@@ -1,0 +1,31 @@
+Up time:
+ 03:07:44 up  4:03
+###################
+USER
+yarik
+###################
+LOGIN@
+23:04
+###################
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        29G  8.9G   19G  33% /
+###################
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1181 yarik     20   0  762216  84348  40460 S   0.0   4.1   0:55.70 sublime_text
+    584 root      20   0  592852  83408  45140 S   0.0   4.1   1:38.80 Xorg
+    921 yarik     20   0  683756  82088  61340 S   0.0   4.0   0:27.05 xfwm4
+   1153 yarik     20   0  679060  75772  60592 S   0.0   3.7   0:23.03 qterminal
+    966 yarik     20   0  324376  48864  33032 S   0.0   2.4   0:03.93 xfdesktop
+   1010 yarik     20   0  513092  48328  27320 S   0.0   2.4   0:01.18 blueman-appl+
+   1028 yarik     20   0  474516  43784  33764 S   0.0   2.2   0:00.58 nm-applet
+    967 yarik     20   0  318280  43748  32956 S   0.0   2.2   0:02.79 panel-1-whis+
+   1168 yarik     20   0  389824  42912  31596 S   0.0   2.1   0:02.08 xfce4-appfin+
+   1075 yarik     20   0  286700  40520  23744 S   0.0   2.0   0:00.84 blueman-tray
+###################
+Netid State      Recv-Q Send-Q  Local Address:Port   Peer Address:Port  Process
+udp   ESTAB      0      0      10.0.2.15%eth0:bootpc     10.0.2.2:bootps       
+tcp   CLOSE-WAIT 0      0           10.0.2.15:57452  45.55.41.223:http   users:(("plugin_host",pid=1193,fd=20))
+###################
+Virtual Memory fields:
+swpd	free	inact	active
+0	864648	651456	357364

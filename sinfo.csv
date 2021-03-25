@@ -1,0 +1,40 @@
+----------------
+Host info:
+----------------
+Host: kali
+Kernel: 5.10.0-kali3-amd64
+Operating System: Kali GNU/Linux Rolling
+Architecture: x86_64
+Processor: Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz
+----------------
+Interfaces info:
+----------------
+lo: 127.0.0.1/8 ::1/128
+eth0: 10.0.2.15/24 fe80::a00:27ff:fee9:b075/64
+----------------
+Firewall status:
+----------------
+Status: active
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere                  
+80/tcp                     ALLOW       Anywhere                  
+443                        ALLOW       Anywhere                  
+22/tcp (v6)                ALLOW       Anywhere (v6)             
+80/tcp (v6)                ALLOW       Anywhere (v6)             
+443 (v6)                   ALLOW       Anywhere (v6)             
+----------------
+DNS info:
+----------------
+nameserver 192.168.0.1
+-------------------
+sysctl active vars:
+-------------------
+net.ipv4.conf.default.rp_filter=1
+net.ipv4.conf.all.rp_filter=1
+net.ipv4.conf.all.accept_redirects = 0
+net.ipv6.conf.all.accept_redirects = 0
+net.ipv4.conf.all.secure_redirects = 1
+net.ipv4.conf.all.send_redirects = 0
+net.ipv4.conf.all.accept_source_route = 0
+net.ipv6.conf.all.accept_source_route = 0
